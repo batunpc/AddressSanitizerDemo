@@ -1,3 +1,5 @@
-/Users/batu/Desktop/ASanDemo/build/CMakeFiles/asan-demo.dir
+/Users/batu/Desktop/ASanDemo/build/CMakeFiles/asan_demo.dir
+/Users/batu/Desktop/ASanDemo/build/CMakeFiles/package.dir
+/Users/batu/Desktop/ASanDemo/build/CMakeFiles/package_source.dir
 /Users/batu/Desktop/ASanDemo/build/CMakeFiles/edit_cache.dir
 /Users/batu/Desktop/ASanDemo/build/CMakeFiles/rebuild_cache.dir

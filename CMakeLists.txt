@@ -1,22 +1,12 @@
-cmake_minimum_required(VERSION 3.1)
-project(asan-demo C)
-set(HEADERS
-  "include/asan-demo.h"
-)
-set(SRC
-  "src/asan-demo.c"
-  "src/main.c"
-)
+cmake_minimum_required(VERSION 3.0.0)
+project(asan_demo VERSION 0.1.0)
 
-add_executable(asan-demo ${SRC} ${HEADERS})
-target_include_directories(asan-demo PUBLIC "include")
+set (CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fno-omit-frame-pointer -fsanitize=address -g")
+set (CMAKE_LINKER_FLAGS_DEBUG "${CMAKE_LINKER_FLAGS_DEBUG} -fno-omit-frame-pointer -fsanitize=address -g")
+#set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
-if(CMAKE_BUILD_TYPE MATCHES "Debug")
-  set(
-    CMAKE_C_FLAGS
-    "${CMAKE_C_FLAGS} -Werror -fsanitize=undefined -fsanitize=address"
-  )
-  target_link_options(asan-demo
-    BEFORE PUBLIC -fsanitize=undefined PUBLIC -fsanitize=address
-  )
-endif()
+add_executable(asan_demo main.cpp)
+
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)

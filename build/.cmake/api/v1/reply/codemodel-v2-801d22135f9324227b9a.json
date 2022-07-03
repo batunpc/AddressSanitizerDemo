@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.1"
+						"string" : "3.0.0"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "asan-demo",
+					"name" : "asan_demo",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "asan-demo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-asan-demo-Debug-1479e74360ee26193580.json",
-					"name" : "asan-demo",
+					"id" : "asan_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-asan_demo-Debug-a629f7010f3eb0628ea9.json",
+					"name" : "asan_demo",
 					"projectIndex" : 0
 				}
 			]
