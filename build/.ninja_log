@@ -1,0 +1,4 @@
+# ninja log v5
+1	37	1656805703624937006	CMakeFiles/asan-demo.dir/src/main.c.o	8a274c8082b4175
+1	54	1656805703642484741	CMakeFiles/asan-demo.dir/src/asan-demo.c.o	ceba423207c65192
+54	90	1656805703678959357	asan-demo	68dcd7e2d6bb7161

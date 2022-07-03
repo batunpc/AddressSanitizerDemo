@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/batu/Desktop/ASanDemo/build",
+  "command": "/usr/bin/clang -I/Users/batu/Desktop/ASanDemo/include  -Werror -fsanitize=undefined -fsanitize=address -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o CMakeFiles/asan-demo.dir/src/asan-demo.c.o -c /Users/batu/Desktop/ASanDemo/src/asan-demo.c",
+  "file": "/Users/batu/Desktop/ASanDemo/src/asan-demo.c"
+},
+{
+  "directory": "/Users/batu/Desktop/ASanDemo/build",
+  "command": "/usr/bin/clang -I/Users/batu/Desktop/ASanDemo/include  -Werror -fsanitize=undefined -fsanitize=address -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o CMakeFiles/asan-demo.dir/src/main.c.o -c /Users/batu/Desktop/ASanDemo/src/main.c",
+  "file": "/Users/batu/Desktop/ASanDemo/src/main.c"
+}
+]
